@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "demon_invasions:wooden_bow"
+    },
+    "title": {
+      "translate": "advancement.demon_invasions.root.title"
+    },
+    "description": {
+      "translate": "advancement.demon_invasions.root.description"
+    },
+    "frame": "task",
+    "background": "demon_invasions:textures/gui/advancements/backgrounds/bone_block_top.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "only": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "only"
+    ]
+  ],
+  "rewards": {}
+}

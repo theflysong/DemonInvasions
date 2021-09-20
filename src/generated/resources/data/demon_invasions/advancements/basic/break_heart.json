@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "demon_invasions:life_crystal"
+    },
+    "title": {
+      "translate": "advancement.demon_invasions.break_heart.title"
+    },
+    "description": {
+      "translate": "advancement.demon_invasions.break_heart.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "demon_invasions:basic/root",
+  "criteria": {
+    "got_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "demon_invasions:life_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_heart"
+    ]
+  ],
+  "rewards": {}
+}

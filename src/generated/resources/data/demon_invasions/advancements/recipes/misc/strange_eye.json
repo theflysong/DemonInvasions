@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "demon_invasions:strange_eye"
+    ]
+  },
+  "criteria": {
+    "get_lens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "demon_invasions:lens"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "demon_invasions:strange_eye"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_lens",
+      "has_the_recipe"
+    ]
+  ]
+}

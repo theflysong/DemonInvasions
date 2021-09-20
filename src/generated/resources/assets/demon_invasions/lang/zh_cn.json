@@ -1,0 +1,21 @@
+{
+  "advancement.demon_invasions.blind.description": "\u93C9\uFFFD\u59DD\u8BF2\u53A0\u947B\u5FDB\u77BE\u6D94\u5B2C\u6E82",
+  "advancement.demon_invasions.blind.title": "\u6FB6\u8FA8\u69D1",
+  "advancement.demon_invasions.break_heart.description": "\u947E\u5CF0\u7DF1\u9422\u71B7\u61E1\u59D8\u5B58\u6AE0",
+  "advancement.demon_invasions.break_heart.title": "\u7EB0\u5EA1\u7E3E!",
+  "advancement.demon_invasions.root.description": "\u93B5\uFFFD\u93C8\u590A\u554B\u95C4\u2543\u6B91\u93CD\u89C4\u7C2E",
+  "advancement.demon_invasions.root.title": "\u93CD\u89C4\u7C2E",
+  "block.demon_invasions.life_crystal": "\u9422\u71B7\u61E1\u59D8\u5B58\u6AE0",
+  "entity.demon_invasions.cthulhul_eye": "\u934F\u5B2D\u5AC3\u6934\u4F77\u7BA3\u942A\uFFFD",
+  "entity.demon_invasions.demon_eye": "\u93AD\u5815\u74DF\u942A\uFFFD",
+  "item.demon_invasions.blood_lens": "\u741B\uFFFD \u93C5\u5241\u59F8\u6D63\uFFFD",
+  "item.demon_invasions.diamond_bow": "\u95BD\u8364\u7176 \u5BEE\uFFFD",
+  "item.demon_invasions.golden_bow": "\u95B2\uFFFD \u5BEE\uFFFD",
+  "item.demon_invasions.iron_bow": "\u95BE\uFFFD \u5BEE\uFFFD",
+  "item.demon_invasions.lens": "\u93C5\u5241\u59F8\u6D63\uFFFD",
+  "item.demon_invasions.life_crystal": "\u9422\u71B7\u61E1\u59D8\u5B58\u6AE0",
+  "item.demon_invasions.mod_eggs": " %s\u9352\u950B\uFFFD\uE047\u6CF2",
+  "item.demon_invasions.sea_bow": "\u5A34\u950B\u78F1 \u5BEE\uFFFD",
+  "item.demon_invasions.strange_eye": "\u6FC2\u56E8\uFFFD\uE046\u6B91\u942A\u80A9\u6086",
+  "item.demon_invasions.wooden_bow": "\u93C8\uFFFD \u5BEE\uFFFD"
+}

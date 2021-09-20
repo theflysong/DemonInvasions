@@ -1,0 +1,21 @@
+{
+  "advancement.demon_invasions.blind.description": "Kill the Cthulhul Eye",
+  "advancement.demon_invasions.blind.title": "Blind",
+  "advancement.demon_invasions.break_heart.description": "Got the life crystal",
+  "advancement.demon_invasions.break_heart.title": "Breaking Heart!",
+  "advancement.demon_invasions.root.description": "The root of all adventures",
+  "advancement.demon_invasions.root.title": "Root Of All",
+  "block.demon_invasions.life_crystal": "Life Crystal",
+  "entity.demon_invasions.cthulhul_eye": "Cthulhul Eye",
+  "entity.demon_invasions.demon_eye": "Demon Eye",
+  "item.demon_invasions.blood_lens": "Blood   Lens",
+  "item.demon_invasions.diamond_bow": "Diamond   Bow",
+  "item.demon_invasions.golden_bow": "Golden   Bow",
+  "item.demon_invasions.iron_bow": "Iron   Bow",
+  "item.demon_invasions.lens": "Lens",
+  "item.demon_invasions.life_crystal": "Life Crystal",
+  "item.demon_invasions.mod_eggs": "%s Spawn Egg",
+  "item.demon_invasions.sea_bow": "Sea   Bow",
+  "item.demon_invasions.strange_eye": "Strange Eye",
+  "item.demon_invasions.wooden_bow": "Wooden   Bow"
+}
