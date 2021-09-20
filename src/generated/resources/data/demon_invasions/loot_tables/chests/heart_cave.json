@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "strange_eye",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "demon_invasions:strange_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "demon_invasions:lens"
+        }
+      ]
+    },
+    {
+      "name": "weapons",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "demon_invasions:wooden_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "demon_invasions:iron_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "demon_invasions:golden_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "demon_invasions:diamond_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "name": "ores",
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ public class RendererCthulhulEye  extends MobRenderer<EntityCthulhulEye, ModelCt
 
     @Override
     public ResourceLocation getEntityTexture(EntityCthulhulEye entity) {
-        if(entity.getHealth() >= 50.0f) {
+        if(entity.getDataManager().get(EntityCthulhulEye.STAGE) == 0) {
             return new ResourceLocation(DemonInvasions.MODID, "textures/entity/cthulhul_eye1.png");
         }
         else {
@@ -31,7 +31,7 @@ public class RendererCthulhulEye  extends MobRenderer<EntityCthulhulEye, ModelCt
 
     @Override
     public void render(EntityCthulhulEye entityIn, float entityYaw, float partialTicks, MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn) {
-        if(entityIn.getHealth() >= 50.0f) {
+        if(entityIn.getDataManager().get(EntityCthulhulEye.STAGE) == 0) {
             this.entityModel = model1;
         }
         else {
@@ -40,6 +40,7 @@ public class RendererCthulhulEye  extends MobRenderer<EntityCthulhulEye, ModelCt
         matrixStackIn.push();
         matrixStackIn.scale(3, 3, 3);
         matrixStackIn.rotate(new Quaternion(Vector3f.XP, entityIn.rotationPitch, true));
+        matrixStackIn.rotate(new Quaternion(Vector3f.ZP, entityIn.limbSwing, true));
         super.render(entityIn, entityYaw, partialTicks, matrixStackIn, bufferIn, packedLightIn);
         matrixStackIn.pop();
     }

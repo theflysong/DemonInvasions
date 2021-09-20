@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "lens",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "demon_invasions:lens"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,7 @@ public class DemonEyeGoals {
         public AttackPhase phase = AttackPhase.TRACING;
         public int phase_countdown = 0x3ffffff;
         public static final int RISING_CD = 20;
+        public static final int TRACING_CD = 200;
         public static final int ATTACKED_CD = 40;
         public static final int LEAVING_CD = 40;
         public double movement_speed;
@@ -69,6 +70,7 @@ public class DemonEyeGoals {
                 phase_countdown --;
                 if (phase_countdown <= 0) {
                     phase = AttackPhase.TRACING;
+                    phase_countdown = TRACING_CD;
                     entity.setRotation(
                             (float) Math.toDegrees(Math.atan2(
                                     target.getPosX() - entity.getPosX(),
@@ -83,6 +85,11 @@ public class DemonEyeGoals {
                 double distance = this.entity.getDistance(target);
                 if (distance <= 1.5f) {
                     target.attackEntityFrom(DamageSource.causeMobDamage(this.entity), (float)attack_damage);
+                    phase = AttackPhase.ATTACKED;
+                    phase_countdown = ATTACKED_CD;
+                    cur_motion = entity.getMotion().mul(0.2, 0.2, 0.2);
+                }
+                if (phase_countdown <= 0) {
                     phase = AttackPhase.ATTACKED;
                     phase_countdown = ATTACKED_CD;
                     cur_motion = entity.getMotion().mul(0.2, 0.2, 0.2);

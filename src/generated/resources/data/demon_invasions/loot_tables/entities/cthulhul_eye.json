@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "blood_lens",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "demon_invasions:blood_lens"
+        }
+      ]
+    },
+    {
+      "name": "weapons",
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "demon_invasions:sea_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 35,
+          "name": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

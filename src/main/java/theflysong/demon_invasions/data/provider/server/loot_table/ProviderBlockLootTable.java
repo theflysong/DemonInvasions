@@ -11,6 +11,6 @@ public class ProviderBlockLootTable extends ProviderBaseBlockLootTable {
 
     @Override
     protected void registerTables() {
-        getLootTables().put(ModBlocks.LIFE_CRYSTAL.get(), tableNormal(ModBlocks.LIFE_CRYSTAL.getId().getPath(), ModItems.LIFE_CRYSTAL.get()));
+        getLootTables().put(ModBlocks.LIFE_CRYSTAL.get(), tableNormal("life_crystal", ModItems.LIFE_CRYSTAL.get()));
     }
 }

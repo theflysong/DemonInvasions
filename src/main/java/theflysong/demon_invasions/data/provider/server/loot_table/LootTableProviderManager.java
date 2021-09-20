@@ -12,6 +12,9 @@ public class LootTableProviderManager implements IProviderManager {
     public static LootTableProviderManager manager = new LootTableProviderManager();
     @Override
     public List<ProviderFactory> getAllProviders() {
-        return Arrays.asList(new ProviderFactory(ProviderBlockLootTable::new));
+        return Arrays.asList(
+                new ProviderFactory(ProviderBlockLootTable::new),
+                new ProviderFactory(ProviderEntityLootTable::new),
+                new ProviderFactory(ProviderChestLootTable::new));
     }
 }

@@ -80,7 +80,7 @@ public abstract class ProviderBaseBlockLootTable implements IDataProvider {
 
     @Override
     public String getName() {
-        return "Loot Tables";
+        return "Block Loot Tables";
     }
 
     protected LootTable.Builder tableNormal(String name, IItemProvider block) {
